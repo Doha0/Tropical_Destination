@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/* fonts */
+.inter{
+@apply font-sansSerif1;
+}
+.poppins{
+@apply font-sansSerif2;
+}
+
+.primary-color {
+    @apply bg-[#F27A44];
+}
