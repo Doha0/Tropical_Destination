@@ -5,7 +5,7 @@ import Navbar from '../components/Navbar/Navbar';
 const Main = () => {
     return (
         <section className='max-w-[1512px] mx-auto'>
-            <div className='max-w-[1274px] mx-auto overflow-hidden px-4 lg:px-0'>
+            <div className='max-w-[1274px] mx-auto overflow-hidden px-4 xl:px-0'>
 
                 <Navbar />
                 <Outlet />

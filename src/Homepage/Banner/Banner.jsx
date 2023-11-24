@@ -4,7 +4,7 @@ import bannerImage from '../../assets/Images/banner.png'
 const Banner = () => {
     return (
         <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
-            <div>
+            <div className='order-last md:order-first'>
                 <p className='mb-1 font-semibold text-sm md:text-xl'>Discover the beauty of the tropics</p>
                 <div className='space-y-2 lg:space-y-6 py-4 md:py-6 poppins'>
                     <h1 className="font-bold black-text-color text-4xl md:text-5xl lg:text-[80px]">Tropical</h1>
@@ -16,7 +16,7 @@ const Banner = () => {
                     Sign Up
                 </button>
             </div>
-            <div className="flex items-center justify-center w-full mt-6 lg:mt-0">
+            <div className="flex items-center justify-center w-full my-6 md:mt-0 order-first md:order-last">
                 <img className="w-full h-full" src={bannerImage} alt="bannerImg" />
             </div>
         </section>
