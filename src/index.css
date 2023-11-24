@@ -4,22 +4,28 @@
 
 
 /* fonts */
-.inter{
-@apply font-sansSerif1;
+.inter {
+    @apply font-sansSerif1;
 }
-.poppins{
-@apply font-sansSerif2;
+
+.poppins {
+    @apply font-sansSerif2;
 }
 
 /* colors */
 .primary-color {
     @apply bg-[#F27A44];
 }
-.black-text-color{
+
+.black-text-color {
     @apply text-[#1F2027]
 }
 
 /* buttons */
-.primary-button{
+.primary-button {
+    @apply bg-[#F27A44] text-white px-8 py-4 rounded-[30px]
+}
+
+.my-btn {
     @apply bg-[#F27A44] text-white px-8 py-4 rounded-[30px]
 }
