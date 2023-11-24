@@ -7,7 +7,7 @@ const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 
     const navItems = <>
-        <div className="nav-items-list">
+        <div className="nav-items-list font-medium">
             <Link className="nav-items">
                 Home
             </Link>
@@ -25,12 +25,12 @@ const Navbar = () => {
             </Link>
         </div>
 
-        <div className="relative nav-items-list">
-            <Link className="nav-items">
+        <div className="nav-items-list">
+            <Link className="nav-items text-[#7D7D7D]">
                 offers
             </Link>
             <Link className="nav-items">
-                <button>
+                <button className='primary-button'>
                     courses
                 </button>
             </Link>
@@ -38,15 +38,15 @@ const Navbar = () => {
     </>
 
     return (
-        <nav x-data={{ isOpen }} className="relative bg-white shadow">
-            <div className="container px-6 py-3 mx-auto md:flex">
+        <nav x-data={{ isOpen }} className="relative bg-white">
+            <div className="px-6  mx-auto md:flex">
                 <div className="flex items-center justify-between">
                     <Link>
                         <img className="w-full h-12" src={logo} alt="logo" />
                     </Link>
 
-                   
-                    <div className="flex md:hidden">
+
+                    <div className="flex lg:hidden">
                         <button
                             onClick={() => setIsOpen(!isOpen)}
                             type="button"
