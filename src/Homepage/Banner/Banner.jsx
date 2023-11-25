@@ -3,7 +3,7 @@ import bannerImage from '../../assets/Images/banner.png'
 
 const Banner = () => {
     return (
-        <section className="inter py-12 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
+        <section className="inter bg-[#F8E27E]/10 py-12 px-8 md:py-24 grid grid-cols-1 md:grid-cols-2 justify-center items-center md:gap-x-12 lg:gap-x-24">
             <div className='order-last md:order-first'>
                 <p className='mb-1 font-semibold text-sm md:text-xl'>Discover the beauty of the tropics</p>
                 <div className='space-y-2 lg:space-y-6 py-4 md:py-6 poppins'>
