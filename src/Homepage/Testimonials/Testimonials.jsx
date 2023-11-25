@@ -35,7 +35,7 @@ const Testimonials = () => {
               alt="reviewer-image"
               className="w-20 h-20 rounded-full dark:bg-gray-500"
             />
-            <p className=" pt-3 border-b-2 border-blue-400 pb-[0.3rem] text-lg font-medium text-center">
+            <p className=" pt-3 border-b-2 border-teal-400 pb-[0.3rem] text-lg font-medium text-center">
               {review.name}
             </p>
             <div className="text-center text-gray-800 pt-3">{review.des}</div>

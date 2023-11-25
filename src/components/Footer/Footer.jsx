@@ -11,7 +11,7 @@ const Footer = () => {
                 <p> Let&apos;s embody your beautiful ideas together, simplify the</p>
                 <p>way you visualize your next big things.</p>
             </div>
-            <div className="flex items-center gap-2 md:gap-4 lg:gap-16">
+            <div className="flex flex-col lg:flex-row items-center gap-2 lg:gap-14 mt-2 lg:mt-5">
                 <p className="text-[#2D2E2E]">Privacy Policy</p>
                 <p className="text-[#2D2E2E]">Terms of Use</p>
                 <p className="text-[#2D2E2E]">Sales and Refunds</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <p className="font-medium">Pricing</p>
                 <p className="font-medium">Membership</p>
                 <p className="font-medium">Joins</p>
-                <p>|</p>
+                <p className='hidden lg:inline-block'>|</p>
             </div>
         </section>
     );
