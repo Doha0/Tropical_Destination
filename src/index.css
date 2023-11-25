@@ -13,8 +13,8 @@
 }
 
 /* text */
-.my-title {
-    @apply py-4 md:py-6 text-3xl text-black text-center font-semibold;
+.title {
+    @apply py-4 md:py-6 text-4xl text-black text-center font-bold font-sansSerif2;
 }
 
 /* colors */

@@ -37,7 +37,7 @@ const Destination = () => {
 
     return (
         <section className="glide-04 relative w-full py-12 md:py-24">
-
+            <h2 className="title">Our Destinations</h2>
             <div className="overflow-hidden" data-glide-el="track">
                 <ul className="py-12 whitespace-no-wrap flex-no-wrap [backface-visibility: hidden] [transform-style: preserve-3d] [touch-action: pan-Y] [will-change: transform] relative flex w-full overflow-hidden p-0">
                     <li className="shadow-xl rounded-2xl bg-white">

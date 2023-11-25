@@ -22,8 +22,8 @@ const reviews = [
 
 const Testimonials = () => {
   return (
-    <section>
-      <p className="my-title">Testimonials</p>
+    <section className="py-12 md:py-24">
+      <p className="title">Testimonials</p>
       <div className="container mx-auto grid md:grid-cols-3">
         {reviews.map((review, index) => (
           <div
