@@ -12,6 +12,11 @@
     @apply font-sansSerif2;
 }
 
+/* text */
+.my-title {
+    @apply py-4 md:py-6 text-3xl text-black text-center font-semibold;
+}
+
 /* colors */
 .primary-color {
     @apply bg-[#F27A44];
